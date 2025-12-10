@@ -236,7 +236,7 @@
 
   <main id="main-content">
   <section class="hero">
-    <div class="hero-body" style="padding-bottom: 0rem;">
+    <div class="hero-body" style="padding-bottom: 0rem !important;">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
@@ -330,15 +330,15 @@
 
 <!-- Teaser video-->
 <section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
+  <div class="container is-max-desktop is-centered has-text-centered">
+    <div class="hero-body" style="padding-top: 1rem !important;">
       <!-- TODO: Replace with your teaser video -->
       <!-- <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
         <source src="static/videos/banner_video.mp4" type="video/mp4">
       </video> -->
-      <img src="static/images/cellmate-logo.png" alt="Teaser Image" loading="lazy"/>
+      <img src="static/images/cellmate-logo.png" style="width: 70%; height: auto; object-fit: contain;" alt="Teaser Image" loading="lazy"/>
       <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle is-4 has-text-centered">
+      <h2 class="subtitle is-size-4-desktop has-text-centered">
         Securing your browser agents today!</h2>
     </div>
   </div>
@@ -353,7 +353,7 @@
         <!-- <h2 class="title is-3">Abstract</h2> -->
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
-          <p class="is-size-4" style="color:#000000; font-family: 'Inter', sans-serif; font-weight: 400;">
+          <p class="is-size-4-desktop" style="color:#000000; font-family: 'Inter', sans-serif; font-weight: 400; margin-bottom: 0;">
             ceLLMate is a sandboxing framework for Browser-Using Agents (BUAs) that enforces strict boundaries on their behavior and reduces the blast radius of prompt injections, analogous to process-level sandboxing in operating systems.          </p>
         </div>
       </div>
@@ -410,7 +410,7 @@
   <div class="hero-body">
     <div class="container is-centered has-text-centered">
       <h2 class="title is-3">ceLLMate Design</h2>
-      <img src="static/images/cellmate-design-cute.png" style="height: 700px; width: auto" alt="ceLLMate Design Figure" loading="lazy"/>
+      <img src="static/images/cellmate-design-cute.png" style="width: 60%; height: auto; object-fit: contain;" alt="ceLLMate Design Figure" loading="lazy"/>
     </div>
   </div>
 </div>
